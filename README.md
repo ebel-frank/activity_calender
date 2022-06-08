@@ -1,5 +1,4 @@
 # Activity Calender
-
 Activity Calender is a productivity app. I built it to help users manage their events/activities, timetable and also take notes. 
 So you actually don't miss out on anything from school parties, classes, church fellowships, bootcamps, seminars and lots more.
 I also added reminders: 5min before, 30min before and so on; so that you get notified for any event youv'e set. With this feature, 
