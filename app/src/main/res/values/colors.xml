@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">@color/ash</color>
+    <color name="colorAccent">@color/not_selected</color>
+
+    <color name="blue">#0176FF</color>
+    <color name="ash">#979393</color>
+    <color name="not_selected">#7AB4F7</color>
+    <color name="lineColor">#DBD9D9</color>
+</resources>

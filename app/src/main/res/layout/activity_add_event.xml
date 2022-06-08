@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".activity.AddEventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_arrow_left"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:popupTheme="@style/MenuStyle">
+            <Button
+                android:id="@+id/save_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="end"
+                android:onClick="saveEvent"
+                android:textColor="@color/blue"
+                android:background="@android:color/transparent"
+                android:text="@string/save"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/event_name"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="2"
+                android:hint="Event name"
+                android:scrollHorizontally="false"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:textSize="22sp"
+                android:background="@android:color/transparent"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/event_name"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:hint="Description..."
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/speech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/description"
+                android:layout_alignBottom="@id/description"
+                android:layout_alignParentEnd="true"
+                android:onClick="getSpeechInput"
+                android:src="@drawable/ic_speech" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/description"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/category_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/category"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/music"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/search_background"
+                        android:layout_weight="2.5"
+                        android:onClick="choseCategory"
+                        android:textAllCaps="false"
+                        android:layout_marginEnd="5dp"
+                        android:text="Music"/>
+
+                    <Button
+                        android:id="@+id/business"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="3.5"
+                        android:onClick="choseCategory"
+                        android:textAllCaps="false"
+                        android:background="@drawable/search_background"
+                        android:text="Business"/>
+
+                    <Button
+                        android:id="@+id/technology"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="4"
+                        android:layout_marginStart="5dp"
+                        android:textAllCaps="false"
+                        android:onClick="choseCategory"
+                        android:background="@drawable/search_background"
+                        android:text="Technology"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+                    <Button
+                        android:id="@+id/social"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/search_background"
+                        android:layout_weight="3"
+                        android:onClick="choseCategory"
+                        android:textAllCaps="false"
+                        android:layout_marginEnd="5dp"
+                        android:text="Social"/>
+
+                    <Button
+                        android:id="@+id/education"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="4"
+                        android:textAllCaps="false"
+                        android:onClick="choseCategory"
+                        android:background="@drawable/search_background"
+                        android:text="Education"/>
+
+                    <Button
+                        android:id="@+id/other"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="3"
+                        android:onClick="choseCategory"
+                        android:layout_marginStart="5dp"
+                        android:textAllCaps="false"
+                        android:background="@drawable/search_background"
+                        android:text="Other"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/category_content"
+                android:text="From"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/from_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/from"
+                android:padding="5dp">
+                <Button
+                    android:id="@+id/from_tab_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+                <Button
+                    android:id="@+id/from_tab_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_below="@id/from_tab"
+                android:text="To"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/to_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/to"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/to_tab_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/to_tab_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/all_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/to_tab"
+                android:fontFamily="@font/roboto_regular"
+                android:text="All-day"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/reminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Reminder"
+                android:layout_below="@id/all_day"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/reminders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reminder"
+                android:nestedScrollingEnabled="false"
+                tools:itemCount="2" />
+
+            <TextView
+                android:id="@+id/add_reminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_below="@id/reminders"
+                android:layout_margin="10dp"
+                android:text="@string/addReminder"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

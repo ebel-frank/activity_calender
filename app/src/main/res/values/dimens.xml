@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--  Overriding default BottomNavigationView sizes  -->
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12dp</dimen>
+
+</resources>

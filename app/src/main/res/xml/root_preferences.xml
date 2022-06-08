@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        app:key="about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:title="About" />
+    <SwitchPreference
+        app:key="darkTheme"
+        android:icon="@drawable/ic_day_night"
+        app:title="Dark theme" />
+    <Preference
+        android:icon="@android:drawable/ic_lock_silent_mode_off"
+        android:key="sound"
+        android:title="Sound"/>
+    <SwitchPreference
+        android:icon="@android:drawable/stat_notify_chat"
+        android:key="notification"
+        android:title="Notification" />
+    <SwitchPreference
+        android:icon="@drawable/ic_menu_vibrate"
+        android:key="vibrate"
+        android:title="Vibrate" />
+    <Preference
+        app:key="rate"
+        android:icon="@android:drawable/btn_star"
+        app:title="Rate us" />
+    <Preference
+        app:key="share"
+        android:icon="@android:drawable/ic_menu_share"
+        app:title="Tell Your Friend" />
+    <Preference
+        android:icon="@android:drawable/ic_dialog_email"
+        app:key="contact"
+        app:summary="Error and suggestions"
+        app:title="Feedback" />
+
+</PreferenceScreen>
