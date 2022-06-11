@@ -11,8 +11,12 @@ It has cost me alot building this and I hope you appreciate it. On no occassion 
 If you do, I will find you and I will place a bug in your code that will cause you a strong headache😒.
 Thank you for your obedience.
 
-This app is not on play store or any other store.
+# Activity Calender Interface
+<img src="https://github.com/ebel-frank/activity_calender/blob/master/Screenshot_4.png" width="300px">  <img src="https://github.com/ebel-frank/activity_calender/blob/master/Screenshot_1.png" width="300px">
+<img src="https://github.com/ebel-frank/activity_calender/blob/master/Screenshot_2.png" width="300px">
 
+
+This app is not on play store or any other store.
 
 # Feel free to fork it and make it better than I did!
 
