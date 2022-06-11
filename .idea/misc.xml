@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable-v24/button_beat_box.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/add_timetable_bg.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/background_rate.xml" value="0.2203125" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/bg_splash.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/events_background.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_delete.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_info.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_music.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_settings.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_speech.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_task.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_tech.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_time.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/ic_timetable.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/nav_selector.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/notes_background.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/drawable/search_background.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/activity_add_event.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/activity_add_note.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/activity_event.xml" value="0.33" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/activity_search.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/activity_tips.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/bg_splash.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/dialog_add_timetable_fragment.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/dialog_rate.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/dialog_time.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/events_layout.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/fragment_events.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/fragment_notes.xml" value="0.22" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/fragment_timetable.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/layout_add_reminder.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/saved_events_info.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/saved_events_layout.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/saved_events_title.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/saved_timetable_layout.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/settings_activity.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/layout/timetable_layout.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ebeledike/AndroidStudioProjects/ActivityCalendar/app/src/main/res/xml/root_preferences.xml" value="0.20833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="14" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8.0_202" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
