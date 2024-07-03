@@ -6,10 +6,34 @@ the app makes sure your'e at the the right place at the right time with the righ
 
 And as a token from my heart❤️, I added several quotes to the app. We all need motivation once in a while, isn't that right?😇
 
-I am making the project public cause I want the upcoming android developers to learn from this project and use the idea to create something better than what I did. I still remember I spent my corona period building this.
-It has cost me alot building this and I hope you appreciate it. On no occassion should you plagiarize any content in this project. especially the name (Oh, It was I and my lovely sister that formulated the name)
-If you do, I will find you and I will place a bug in your code that will cause you a strong headache😒.
-Thank you for your obedience.
+## Libraries Used
+1. **[ambilwarna](https://github.com/yukuku/ambilwarna):**
+   - A color picker library that allows users to select colors within the app.
+2. **[AssetSQLiteOpenHelper](https://github.com/daolq3012/AssetSQLiteOpenHelper):**
+   - A helper library for managing SQLite databases using assets.
+3. **[Room Persistence Library](https://developer.android.com/jetpack/androidx/releases/room):**
+   - Provides an abstraction layer over SQLite.
+4. **[Google Play Services Ads SDK](https://developers.google.com/admob/android/quick-start):**
+   - Version: 20.5.0
+   - For integrating ads into the app.
+5. **[AndroidX Core Splash Screen](https://developer.android.com/jetpack/androidx/releases/core):**
+   - Library to create splash screens.
+
+## Permissions Used
+- **VIBRATE:** Allows the app to control the device vibration.
+- **WRITE_EXTERNAL_STORAGE:** Allows the app to write to external storage.
+- **READ_EXTERNAL_STORAGE:** Allows the app to read from external storage.
+
+## Database Details
+- **SQLite Database:**
+  - Managed using Room Persistence Library, which simplifies database management.
+  - Provides compile-time checks of SQL queries and allows seamless database migration.
+  - Use of DAOs (Data Access Objects) to define methods for accessing the database.
+
+## Database Architecture
+- **Entities:** Defines the schema of tables in the database.
+- **DAOs:** Interfaces that define the methods for interacting with the database.
+- **Database:** The main access point to the underlying SQLite database, annotated with `@Database`.
 
 # Activity Calender Interface
 <img src="https://github.com/ebel-frank/activity_calender/blob/master/Screenshot_4.png" width="300px">  <img src="https://github.com/ebel-frank/activity_calender/blob/master/Screenshot_1.png" width="300px">
